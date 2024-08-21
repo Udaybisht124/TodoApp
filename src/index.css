@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color:#455367;
+}
+.container{
+  height: 80px;
+  display: flex;
+}
+.logo{
+  margin-left: 40px;
+  margin-top: 2px;
+}
+.right ul li{
+  margin-left: 950px;
+}
