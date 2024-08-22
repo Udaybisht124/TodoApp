@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  background-color:#455367;
+  background-color:#172842;
 }
 .container{
   height: 80px;
@@ -10,8 +10,24 @@ body{
 }
 .logo{
   margin-left: 40px;
-  margin-top: 2px;
+  margin-top: -9px;
 }
 .right ul li{
   margin-left: 950px;
 }
+  .logoimage {
+  
+    animation: rotate 2s linear infinite;
+    margin-left: 430px;
+    height: 52px;
+    margin-top: 11px;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
